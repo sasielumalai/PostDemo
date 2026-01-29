@@ -2,556 +2,571 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Subscription Landing</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PosBytz — Restaurant POS & Growth Platform</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
 </head>
 <body>
 
-<!-- ================= SECTION 1 ================= -->
-<section class="hero-section">
-  <nav class="navbar">
-    <div class="logo">optics</div>
-    <ul class="nav-links">
-      <li>Features</li>
-      <li>Onboarding</li>
-      <li>Calculator</li>
-      <li>Reviews</li>
-      <li>FAQs</li>
-    </ul>
-    <button class="nav-btn">Book a Call</button>
-  </nav>
-
-  <div class="hero-content">
-    <span class="tag">Build for your Shopify Store</span>
-    <h1>Turn your <span>Shoppers</span><br/> into Subscribers</h1>
-    <button class="cta-btn">Get my revenue forecast</button>
+<!-- ================= NAVBAR ================= -->
+<header class="navbar">
+  <div class="navbar-inner">
+    <div class="logo">posbytz</div>
+    <nav class="nav-links">
+      <a href="#features">Features</a>
+      <a href="#onboarding">Onboarding</a>
+      <a href="#calculator">Calculator</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#faq">FAQs</a>
+      <button class="nav-btn cta-btn">Book a Call</button>
+    </nav>
   </div>
+</header>
 
-  <div class="hero-visual">
-    <div class="divider"></div>
-    <div class="bubble left">Visitors</div>
-    <div class="bubble right">Subscribers</div>
-  </div>
-</section>
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="hero-inner">
 
-<script src="script.js"></script>
-<!-- ================= SECTION 2 ================= -->  
-<section class="features-section">
-  <div class="features-header">
-    <span class="pill">Features</span>
-    <h2>
-      Transform Your eCom Store into a <br />
-      Subscription <span>Powerhouse</span>
-    </h2>
-    <p>
-      Everything you need to build and scale subscriptions – all in one platform.
+    <div class="hero-pill">
+      🚀 Built for Indian Restaurants
+    </div>
+
+    <h1>
+      Your All-in-one Cloud based <span>Retail ERP</span><br/>
+      into <span class="gradient-text"></span>Software
+    </h1>
+
+    <p class="hero-subtitle">
+      PosBytz is an all-in-one restaurant POS platform to manage billing,
+      inventory, online orders, staff, and operations — in real time.
     </p>
+
+    <div class="hero-actions">
+      <button class="primary-btn cta-btn">Get my revenue forecast</button>
+    </div>
+
+    <!-- HERO FLOW -->
+    <div class="hero-flow">
+
+      <div class="flow-left">
+        <div class="flow-bubble ghost">
+          <span class="dot"></span> Walk-in Guests
+        </div>
+        <div class="flow-bubble ghost">
+          <span class="dot"></span> Online Visitors
+        </div>
+        <div class="flow-bubble ghost">
+          <span class="dot"></span> Phone Orders
+        </div>
+      </div>
+
+      <div class="flow-center">
+        <div class="flow-pipe"></div>
+      </div>
+
+      <div class="flow-right">
+        <div class="flow-bubble active">
+          <img src="https://randomuser.me/api/portraits/women/45.jpg"/>
+          Loyal Customer
+        </div>
+        <div class="flow-bubble active">
+          <img src="https://randomuser.me/api/portraits/men/22.jpg"/>
+          Repeat Diner
+        </div>
+        <div class="flow-bubble active">
+          <img src="https://randomuser.me/api/portraits/women/32.jpg"/>
+          High-Value Guest
+        </div>
+      </div>
+
+    </div>
+
   </div>
+</section>
 
-  <div class="features-cards">
-    <!-- Card 1 -->
-    <div class="feature-card">
-      <h4>Subscription Creation & Management</h4>
-      <p>Create and manage subscription programs that increase your revenue, without any hassle.</p>
-      <div class="card-box">
-        <p>Shopify – New Subscriber</p>
-        <strong>$39.99</strong>
-      </div>
-      <div class="card-box">
-        <p>Shopify – New Subscriber</p>
-        <strong>$49.99</strong>
-      </div>
-    </div>
+<!-- ================= FEATURES ================= -->
+<section id="features" class="features">
+  <div class="features-inner">
 
-    <!-- Card 2 -->
-    <div class="feature-card">
-      <h4>Custom Checkouts & Strategies</h4>
-      <p>Convert more visitors with smart checkouts, built-in upsells, and flexible payment options.</p>
-      <div class="checkout-mock">
-        <p>Add More Items</p>
-        <button>Add to Cart</button>
-      </div>
-    </div>
+    <span class="section-pill">Features</span>
+    <h2>
+      Transform Your Restaurant into a<br/>
+      <span class="gradient-text">Profit Powerhouse</span>
+    </h2>
 
-    <!-- Card 3 -->
-    <div class="feature-card">
-      <h4>Analyze Revenue & Projections</h4>
-      <p>See real-time revenue insights and forecasts to make smarter business decisions.</p>
-      <div class="chart-mock">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
+    <p class="section-desc">
+      Everything you need to manage and grow your restaurant — billing,
+      inventory, online orders, staff, analytics, and more.
+    </p>
+
+    <div class="features-grid">
+
+      <div class="feature-card">
+        <h4>Billing & POS</h4>
+        <p>
+          Lightning-fast GST-compliant billing with split bills, discounts,
+          multiple payment modes, and outlet-wise reporting.
+        </p>
+        <div class="feature-ui">
+          <div class="ui-row strong">Table 6 • ₹1,340</div>
+          <div class="ui-row muted">UPI • Card • Cash</div>
+        </div>
       </div>
+
+      <div class="feature-card">
+        <h4>Smart Checkouts</h4>
+        <p>
+          Seamless dine-in, takeaway, QR ordering, and online checkout
+          experiences that reduce queues and increase order accuracy.
+        </p>
+        <div class="feature-ui">
+          <div class="ui-row strong">Order #1389</div>
+          <div class="ui-row muted">Payment Successful</div>
+        </div>
+      </div>
+
+      <div class="feature-card">
+        <h4>Revenue Analytics</h4>
+        <p>
+          Real-time dashboards showing daily sales, profit margins, outlet
+          performance, best-selling dishes, and growth trends.
+        </p>
+        <div class="feature-ui graph">
+          <div class="graph-bar"></div>
+          <div class="graph-bar light"></div>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
-<!-- ================= SECTION 3 ================= -->
-<section class="benefits-section">
-  <div class="benefits-header">
+<!-- ================= BUILT TO HELP YOU GROW ================= -->
+<section class="grow-section">
+  <div class="grow-header">
     <span class="pill">Benefits</span>
     <h2>Built to Help You <span>Grow</span></h2>
-    <p>
-      Sick of payment issues, billing errors, and chargebacks?
-      We handle all the backend work: payments, disputes, data, and retention.
-    </p>
+    <p>Sick of payment issues, billing errors, and chargebacks? We handle all the backend work — payments, disputes, data, and retention.</p>
   </div>
 
-  <div class="benefits-grid">
-    <div class="benefit-card large">
+  <div class="grow-grid">
+    <div class="grow-card gradient">
+      <img src="https://apptics.io/images/illustrations/recurring.svg" alt="">
       <h4>Predictable, Recurring Revenue</h4>
-      <p>
-        Turn one-time buyers into loyal subscribers and build steady income
-        with minimal effort.
-      </p>
+      <p>Turn one-time buyers into loyal subscribers. We help you build steady income with minimal effort.</p>
     </div>
 
-    <div class="benefit-card">
+    <div class="grow-card">
+      <img src="https://apptics.io/images/illustrations/analytics.svg" alt="">
       <h4>Real-Time Revenue Insights</h4>
-      <p>Track performance and revenue growth in one simple dashboard.</p>
+      <p>Track performance, revenue growth in one simple dashboard.</p>
     </div>
 
-    <div class="benefit-card">
+    <div class="grow-card">
+      <img src="https://apptics.io/images/illustrations/payments.svg" alt="">
       <h4>Fewer Failed Payments</h4>
-      <p>
-        Recover failed transactions automatically with smart retries and updates.
-      </p>
+      <p>We recover failed transactions automatically with smart retries and updates, helping you keep more revenue.</p>
     </div>
 
-    <div class="benefit-card">
+    <div class="grow-card">
+      <img src="https://apptics.io/images/illustrations/checkout.svg" alt="">
+      <h4>Higher Conversion at Checkout</h4>
+      <p>Our custom checkout flows are optimized to convert more visitors and increase average order value.</p>
+    </div>
+
+    <div class="grow-card">
+      <img src="https://apptics.io/images/illustrations/automation.svg" alt="">
       <h4>Less Busywork, More Growth</h4>
-      <p>
-        Automate billing, renewals, and decline recovery so you can focus on scaling.
-      </p>
+      <p>We automate billing, renewals, and decline recovery so you can focus on scaling.</p>
     </div>
 
-    <div class="benefit-card">
-      <h4>Fast Setup, No Headaches</h4>
-      <p>
-        Get launched in days, not months. We handle integration and setup.
-      </p>
-    </div>
-
-    <div class="benefit-card highlight">
+    <div class="grow-card gradient-blue">
+      <img src="https://apptics.io/images/illustrations/memberships.svg" alt="">
       <h4>Enhance Profits From Your Shopify Via Memberships</h4>
-      <p>
-        Boost conversion and retention rates while growing profits with
-        memberships.
-      </p>
-      <button>Book a call now</button>
+      <p>Our platform is built for high growth and focused entrepreneurs who want to achieve conversions & retention rates which will shoot their profits to the moon.</p>
+      <a href="#" class="card-btn">Book a call →</a>
     </div>
   </div>
 </section>
-<!-- ================= SECTION 4 ================= -->
+
+<!-- ================= WHY APPTICS BEATS EVERY COMPETITOR ================= -->
 <section class="compare-section">
-  <div class="compare-wrapper">
+  <div class="compare-header">
+    <span class="pill">Apptics vs Others</span>
+    <h2>Why Apptics Beats <span>Every Competitor</span></h2>
+    <p>Get everything other platforms promise, plus the features they don’t — without the headaches, high fees, or months of setup.</p>
+    <a href="#" class="primary-btn">Get Started →</a>
+  </div>
 
-    <!-- Left Content -->
-    <div class="compare-left">
-      <span class="pill">Apptics vs Others</span>
-      <h2>
-        Why Apptics Beats <br />
-        <span>Every Competitor</span>
-      </h2>
-      <p>
-        Get everything other platforms promise, plus the features they don’t.
-        Without the headaches, high fees, or months of setup.
-        While other platforms nickel and dime you with hidden fees,
-        Apptics gives you everything in one place at a price that actually makes sense.
-      </p>
-      <button class="primary-btn">Get Started</button>
+  <div class="compare-table">
+    <div class="compare-col">
+      <h4>Features</h4>
+      <ul>
+        <li>Customizable Checkout</li>
+        <li>Custom Subscription Plans</li>
+        <li>Chargeback Mitigation</li>
+        <li>MID Management & Routing</li>
+        <li>Multi-currency Support</li>
+      </ul>
     </div>
 
-    <!-- Right Comparison Card -->
-    <div class="compare-right">
-      <div class="compare-table">
-        <div class="table-header">
-          <span></span>
-          <span>Others</span>
-          <span class="highlight">Apptics</span>
-        </div>
+    <div class="compare-col others">
+      <h4>Others</h4>
+      <ul>
+        <li>❌</li>
+        <li>❌</li>
+        <li>❌</li>
+        <li>❌</li>
+        <li>❌</li>
+      </ul>
+    </div>
 
-        <div class="table-row">
-          <span>Customizable Checkout</span>
-          <span class="cross">✕</span>
-          <span class="check">✓</span>
-        </div>
+    <div class="compare-col apptics">
+      <h4>Apptics</h4>
+      <ul>
+        <li>✅</li>
+        <li>✅</li>
+        <li>✅</li>
+        <li>✅</li>
+        <li>✅</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
-        <div class="table-row">
-          <span>Custom Subscription Plans</span>
-          <span class="cross">✕</span>
-          <span class="check">✓</span>
-        </div>
 
-        <div class="table-row">
-          <span>Chargeback Mitigation</span>
-          <span class="cross">✕</span>
-          <span class="check">✓</span>
-        </div>
+<!-- ================= ONBOARDING SECTION ================= -->
+<section class="onboarding-section" id="onboarding">
+  <div class="onboarding-container">
 
-        <div class="table-row">
-          <span>MD Management & Routing</span>
-          <span class="cross">✕</span>
-          <span class="check">✓</span>
-        </div>
+    <!-- Step 01 -->
+    <div class="onboarding-card">
+      <div class="onboarding-left">
+        <span class="step-pill">STEP 01</span>
+        <h3>Connect your business</h3>
+        <p>Integrate your store, payment gateway, and tools in minutes. Our seamless setup ensures your operations run smoothly from day one.</p>
+      </div>
+      <div class="onboarding-right">
+        <img src="https://thumbs.dreamstime.com/b/business-woman-drawing-global-structure-networking-business-woman-drawing-global-structure-networking-data-exchanges-customer-109179483.jpg" alt="Connect business">
+      </div>
+    </div>
 
-        <div class="table-row">
-          <span>Multi-currency Support</span>
-          <span class="cross">✕</span>
-          <span class="check">✓</span>
-        </div>
+    <!-- Step 02 -->
+    <div class="onboarding-card">
+      <div class="onboarding-left">
+        <span class="step-pill">STEP 02</span>
+        <h3>Unlock your growth strategy</h3>
+        <p>Configure subscriptions, offers, and pricing models to maximize conversions and drive long-term recurring revenue.</p>
+      </div>
+      <div class="onboarding-right">
+        <img src="https://www.shutterstock.com/image-vector/global-business-growth-strategy-development-260nw-2659049491.jpg" alt="Growth strategy">
+      </div>
+    </div>
+
+    <!-- Step 03 -->
+    <div class="onboarding-card">
+      <div class="onboarding-left">
+        <span class="step-pill">STEP 03</span>
+        <h3>Turn clicks into cash</h3>
+        <p>Optimize checkout experiences and automate billing workflows to convert more visitors into paying customers.</p>
+      </div>
+      <div class="onboarding-right">
+        <img src="https://miro.medium.com/v2/resize:fit:1400/1*kGbOkRVnJuVP94xyKAtyQg.jpeg" alt="Payments">
+      </div>
+    </div>
+
+    <!-- Step 04 -->
+    <div class="onboarding-card">
+      <div class="onboarding-left">
+        <span class="step-pill">STEP 04</span>
+        <h3>Grow on autopilot</h3>
+        <p>Track performance, reduce churn, and recover failed payments automatically — all while you focus on scaling your business.</p>
+      </div>
+      <div class="onboarding-right">
+        <img src="https://i0.wp.com/growtheshow.com/wp-content/uploads/2022/06/Copy-of-Copy-of-21-Cover-REAL-7.png?fit=1920%2C1180&ssl=1" alt="Automation">
       </div>
     </div>
 
   </div>
 </section>
-<!-- ================= SECTION 5 ================= -->
-<section class="steps-section">
-  <div class="steps-wrapper">
 
-    <div class="step-card">
-      <div class="step-number">01</div>
-      <h4>Connect your business</h4>
-      <p>
-        Connect your storefront, set up payments,
-        and start collecting subscriptions.
-      </p>
-      <div class="step-mock blue">
-        <span>apptics</span>
-        <button>Connect</button>
-      </div>
-    </div>
-
-    <div class="step-card">
-      <div class="step-number">02</div>
-      <h4>Unlock your growth strategy</h4>
-      <p>
-        Design the right subscription experience
-        to maximize retention and revenue.
-      </p>
-      <div class="step-mock doc">
-        <span>Analytics Setup</span>
-      </div>
-    </div>
-
-    <div class="step-card">
-      <div class="step-number">03</div>
-      <h4>Turn clicks into cash</h4>
-      <p>
-        Optimize checkout flows and convert visitors
-        into paying subscribers.
-      </p>
-      <div class="step-mock pay">
-        <span>Checkout</span>
-      </div>
-    </div>
-
-    <div class="step-card">
-      <div class="step-number">04</div>
-      <h4>Grow on autopilot</h4>
-      <p>
-        Automate renewals, billing, and retries
-        while you scale effortlessly.
-      </p>
-      <div class="step-mock card">
-        <span>Subscriptions</span>
-      </div>
-    </div>
-
+<!-- ================= ROI CALCULATOR ================= -->
+<section class="calculator-section">
+  <div class="calculator-header">
+    <span class="pill">Calculator</span>
+    <h2>Calculate How Apptics Could Transform <span>Your Business</span></h2>
   </div>
-</section>
-<!-- ================= SECTION 6 ================= -->
-<section class="roi-section">
-  <h2 class="roi-title">
-    Calculate How Apptics Could <br />
-    Transform <span>Your Business</span>
-  </h2>
 
-  <div class="roi-container">
+  <div class="calculator-card">
 
-    <!-- LEFT INPUTS -->
-    <div class="roi-box">
+    <!-- LEFT -->
+    <div class="calculator-left">
       <h4>ROI Calculator</h4>
 
-      <label>Customers Per Month</label>
-      <input type="number" id="customers" value="1200">
+      <div class="calc-group">
+        <label>Customers Per Month</label>
+        <input type="range" min="100" max="5000" value="1200" id="custRange">
+        <div class="calc-value"><span id="custVal">1,200</span></div>
+      </div>
 
-      <label>Average Order Value ($)</label>
-      <input type="number" id="aov" value="45">
+      <div class="calc-group">
+        <label>Average Order Value</label>
+        <input type="range" min="100" max="5000" value="1200" id="aovRange">
+        <div class="calc-value">₹ <span id="aovVal">1,200</span></div>
+      </div>
 
-      <label>Profit Margin (%)</label>
-      <input type="number" id="margin" value="30">
+      <div class="calc-group">
+        <label>Profit Margin (%)</label>
+        <input type="range" min="5" max="80" value="30" id="marginRange">
+        <div class="calc-value"><span id="marginVal">30</span>%</div>
+      </div>
 
-      <div class="roi-footer">
-        <span>Monthly Subscription Value</span>
-        <strong>$<span id="subscriptionValue">0</span></strong>
+      <div class="calc-total">
+        Monthly Subscription Value
+        <strong>₹ <span id="monthlySubVal">560</span></strong>
       </div>
     </div>
 
-    <!-- CENTER GAUGE -->
-    <div class="roi-box center">
+    <!-- CENTER -->
+    <div class="calculator-center">
       <h4>Your Business with Apptics</h4>
-
-      <div class="gauge">
-        <svg width="180" height="100">
-          <path d="M10 90 A80 80 0 0 1 170 90"
-                fill="none"
-                stroke="#e5e7eb"
-                stroke-width="12"/>
-          <path id="gaugePath"
-                d="M10 90 A80 80 0 0 1 170 90"
-                fill="none"
-                stroke="#4f6bff"
-                stroke-width="12"
-                stroke-dasharray="251"
-                stroke-dashoffset="180"/>
+      <div class="gauge-wrap">
+        <svg viewBox="0 0 200 110">
+          <path d="M10 100 A90 90 0 0 1 190 100" class="gauge-bg"/>
+          <path d="M10 100 A90 90 0 0 1 190 100" class="gauge-fill" id="gaugeFill"/>
         </svg>
-        <div class="gauge-value">
-          $<span id="appticsRevenue">0</span>
-        </div>
+        <div class="gauge-value">₹ <span id="annualGain">1,84,000</span></div>
+        <p>Revenue Increase / Year</p>
       </div>
     </div>
 
-    <!-- RIGHT COMPARISON -->
-    <div class="roi-box">
+    <!-- RIGHT -->
+    <div class="calculator-right">
       <h4>Without Apptics</h4>
-
-      <div class="roi-row">
-        <span>Monthly Revenue</span>
-        <strong>$<span id="withoutRevenue">0</span></strong>
-      </div>
-
-      <div class="roi-row highlight">
-        <span>With Apptics</span>
-        <strong>$<span id="withRevenue">0</span></strong>
-      </div>
-
-      <div class="roi-row gain">
-        <span>Extra Monthly Profit</span>
-        <strong>+$<span id="profitGain">0</span></strong>
+      <div class="calc-grid">
+        <div>
+          <span>Year 1</span>
+          <strong id="y1">₹ 5,40,000</strong>
+        </div>
+        <div>
+          <span>Year 2</span>
+          <strong id="y2">₹ 6,20,000</strong>
+        </div>
+        <div>
+          <span>Year 3</span>
+          <strong id="y3">₹ 7,40,000</strong>
+        </div>
+        <div>
+          <span>Year 4</span>
+          <strong id="y4">₹ 8,20,000</strong>
+        </div>
+        <div>
+          <span>Year 5</span>
+          <strong id="y5">₹ 9,10,000</strong>
+        </div>
+        <div>
+          <span>Year 6</span>
+          <strong id="y6">₹ 10,20,000</strong>
+        </div>
       </div>
     </div>
 
   </div>
 </section>
-<!-- ================= SECTION 7 ================= -->
-<section class="pricing-section">
-  <div class="pricing-wrapper">
 
-    <!-- LEFT BLUE PANEL -->
-    <div class="pricing-info">
-      <span class="pill white">Pricing</span>
-      <h2>Fair Pricing<br>No Surprises</h2>
+<!-- ================= PRICING ================= -->
+<section class="pricing">
+  <div class="pricing-inner">
+
+    <div class="pricing-left">
+      <span class="section-pill">Pricing</span>
+      <h2>
+        Fair Pricing.<br/>
+        No Surprises.
+      </h2>
       <p>
-        Transparent pricing that scales with your business.
-        No contracts, no hidden fees.
+        Simple, transparent pricing that scales with your restaurant. No lock-ins.
+        Cancel anytime.
       </p>
 
-      <p class="small-note">
-        “Pay only for what you use and grow without limits.”
-      </p>
+      <div class="pricing-toggle">
+        <button class="toggle-btn active" data-mode="monthly">Monthly</button>
+        <button class="toggle-btn" data-mode="yearly">Yearly</button>
+      </div>
     </div>
 
-    <!-- RIGHT PRICING BOX -->
-    <div class="pricing-box">
+    <div class="pricing-right">
+      <div class="pricing-card">
 
-      <!-- Toggle -->
-      <div class="billing-toggle">
-        <button class="active" id="monthlyBtn">Monthly</button>
-        <button id="yearlyBtn">Yearly</button>
-      </div>
-
-      <!-- PREMIUM PLAN CARD -->
-      <div class="plan-card">
-        <h3>Premium Plan</h3>
-        <p class="plan-desc">
-          Designed for brands ready to scale subscriptions
-          and recurring revenue.
+        <h4>Growth Plan</h4>
+        <p class="pricing-sub">
+          Everything you need to run and grow your restaurant.
         </p>
 
-        <ul class="plan-features">
-          <li>Unlimited Subscriptions</li>
-          <li>Custom Checkout</li>
-          <li>Revenue Analytics</li>
-          <li>Chargeback Protection</li>
-          <li>Priority Support</li>
+        <div class="price" id="priceValue">
+          ₹2,499 <span>/month</span>
+        </div>
+
+        <ul class="pricing-features">
+          <li>✔ Unlimited Billing</li>
+          <li>✔ Inventory & Recipe Management</li>
+          <li>✔ GST Compliance</li>
+          <li>✔ Online Ordering & QR Menus</li>
+          <li>✔ Multi-Outlet Support</li>
+          <li>✔ Real-Time Reports & Analytics</li>
+          <li>✔ Staff & Role Management</li>
+          <li>✔ 24×7 Customer Support</li>
         </ul>
 
-        <div class="plan-price">
-          <span class="amount">$<span id="priceValue">3500</span></span>
-          <span class="period">/ month</span>
-        </div>
+        <button class="primary-btn full cta-btn">Start Free Trial</button>
 
-        <button class="cta-btn full">Schedule a Call</button>
       </div>
-
-    </div>
-
-  </div>
-</section>
-<!-- ================= SECTION 8 ================= -->
-<section class="faq-section">
-  <div class="faq-wrapper">
-
-    <!-- Header -->
-    <div class="faq-header">
-      <span class="pill">FAQs</span>
-      <h2>Curated <span>Questions</span></h2>
-      <p>Answers to common questions about Apptics and subscriptions.</p>
-    </div>
-
-    <!-- FAQ Grid -->
-    <div class="faq-grid">
-
-      <!-- Column 1 -->
-      <div class="faq-column">
-        <div class="faq-item">
-          <button class="faq-question">How do I get started?</button>
-          <div class="faq-answer">
-            Getting started is easy — book a call and we’ll handle setup.
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <button class="faq-question">How much does Apptics cost?</button>
-          <div class="faq-answer">
-            Pricing depends on your needs. We offer flexible plans.
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <button class="faq-question">What verticals are supported?</button>
-          <div class="faq-answer">
-            Apptics works for most Shopify-based businesses.
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <button class="faq-question">How does Apptics work with Shopify?</button>
-          <div class="faq-answer">
-            We integrate directly with Shopify and manage subscriptions.
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <button class="faq-question">What if I already use subscriptions?</button>
-          <div class="faq-answer">
-            We migrate your existing subscribers seamlessly.
-          </div>
-        </div>
-      </div>
-
-      <!-- Column 2 -->
-      <div class="faq-column">
-        <div class="faq-item">
-          <button class="faq-question">What makes Apptics different?</button>
-          <div class="faq-answer">
-            We combine subscriptions, analytics, and chargeback protection.
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <button class="faq-question">Are subscriptions hard to manage?</button>
-          <div class="faq-answer">
-            No — we automate billing, renewals, and retries.
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <button class="faq-question">Is Apptics compliant and secure?</button>
-          <div class="faq-answer">
-            Yes. We follow industry best practices for security.
-          </div>
-        </div>
-
-        <div class="faq-item">
-          <button class="faq-question">Can I cancel anytime?</button>
-          <div class="faq-answer">
-            Yes — no contracts or lock-ins.
-          </div>
-        </div>
-
-        <div class="faq-item contact">
-          <button class="faq-question">Still have questions?</button>
-          <div class="faq-answer">
-            <a href="#" class="contact-link">Contact us →</a>
-          </div>
-        </div>
-      </div>
-
     </div>
 
   </div>
 </section>
 
-<!-- ================= SECTION 9 ================= -->
-<section class="final-section">
+<!-- ================= FAQ ================= -->
+<section id="faq" class="faq">
+  <div class="faq-inner">
 
-  <!-- CTA -->
-  <div class="final-cta">
-    <span class="pill">Built for Shopify Stores</span>
+    <span class="section-pill">FAQs</span>
     <h2>
-      Unlock the Power of <br />
-      Apptics <span>Subscriptions</span>
+      Curated <span class="gradient-text">Questions</span>
+    </h2>
+
+    <div class="faq-list">
+
+      <div class="faq-item">
+        <button class="faq-question">Is PosBytz suitable for small restaurants?</button>
+        <div class="faq-answer">
+          Yes. PosBytz works for single-outlet cafés, food trucks, cloud kitchens,
+          and large restaurant chains alike.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">Does PosBytz work without internet?</button>
+        <div class="faq-answer">
+          Yes. PosBytz works offline and automatically syncs data once internet
+          connectivity is restored.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">Is my restaurant data secure?</button>
+        <div class="faq-answer">
+          Absolutely. We use enterprise-grade security, encrypted storage, and
+          strict access controls.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">Do you provide onboarding & training?</button>
+        <div class="faq-answer">
+          Yes. Free onboarding, training sessions, and 24×7 support are included
+          with every plan.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">Can I cancel anytime?</button>
+        <div class="faq-answer">
+          Yes. There are no contracts or lock-ins. You can cancel whenever you
+          want.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">Does PosBytz support cloud kitchens?</button>
+        <div class="faq-answer">
+          Yes. PosBytz supports multi-brand cloud kitchens and integrations with
+          major delivery platforms.
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= FINAL CTA ================= -->
+<section class="final-cta">
+  <div class="final-inner">
+    <h2>
+      Unlock the Power of<br/>
+      <span class="gradient-text-light">PosBytz POS</span>
     </h2>
     <p>
-      Apptics enables you to launch and scale subscriptions
-      with flexible billing, analytics, and retention tools.
+      Join thousands of restaurants using PosBytz to streamline operations,
+      increase profits, and scale effortlessly.
     </p>
-    <button class="cta-btn">Book a call</button>
+    <button class="primary-btn large cta-btn">Book a Free Demo</button>
   </div>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="footer-grid">
-
-      <!-- Brand -->
-      <div class="footer-brand">
-        <h4>apptics</h4>
-        <div class="contact-box">
-          <span>Reach out to us</span>
-          <button>Contact on Telegram</button>
-        </div>
-      </div>
-
-      <!-- Links -->
-      <div class="footer-links">
-        <h5>Features</h5>
-        <a href="#">Subscription Management</a>
-        <a href="#">Revenue Analytics</a>
-        <a href="#">Chargeback Protection</a>
-      </div>
-
-      <div class="footer-links">
-        <h5>Company</h5>
-        <a href="#">About</a>
-        <a href="#">Careers</a>
-        <a href="#">Blog</a>
-      </div>
-
-      <div class="footer-links">
-        <h5>Support</h5>
-        <a href="#">Help Center</a>
-        <a href="#">FAQs</a>
-        <a href="#">Contact</a>
-      </div>
-
-    </div>
-
-    <div class="footer-bottom">
-      <span>© 2026 Apptics. All rights reserved.</span>
-      <div class="footer-policy">
-        <a href="#">Terms</a>
-        <a href="#">Privacy</a>
-        <a href="#">Refund Policy</a>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Background watermark -->
-  <div class="watermark">apptics</div>
-
 </section>
 
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="footer-inner">
+
+    <div class="footer-brand">
+      <div class="logo">posbytz</div>
+      <p>
+        PosBytz is an all-in-one restaurant POS, inventory, billing, and growth
+        platform trusted by restaurants across India.
+      </p>
+    </div>
+
+    <div class="footer-col">
+      <h5>Product</h5>
+      <a href="#">Features</a>
+      <a href="#">Pricing</a>
+      <a href="#">Integrations</a>
+      <a href="#">Security</a>
+    </div>
+
+    <div class="footer-col">
+      <h5>Company</h5>
+      <a href="#">About</a>
+      <a href="#">Careers</a>
+      <a href="#">Partners</a>
+      <a href="#">Blog</a>
+    </div>
+
+    <div class="footer-col">
+      <h5>Support</h5>
+      <a href="#">Help Center</a>
+      <a href="#">Contact</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 PosBytz. All rights reserved.
+  </div>
+</footer>
+
+<!-- ================= DEMO MODAL ================= -->
+<div id="demoModal" class="modal">
+  <div class="modal-content">
+    <button class="modal-close">&times;</button>
+    <h3>Book a Free Demo</h3>
+    <p>Fill in your details and our team will contact you shortly.</p>
+
+    <form id="demoForm">
+      <input type="text" name="name" placeholder="Full Name" required/>
+      <input type="email" name="email" placeholder="Email Address" required/>
+      <input type="tel" name="phone" placeholder="Phone Number" required/>
+      <input type="text" name="business" placeholder="Restaurant Name"/>
+      <button type="submit" class="primary-btn full">Request Demo</button>
+    </form>
+  </div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
